@@ -1,0 +1,190 @@
+body {
+    background-color: #fbbd08;
+    transition: linear 500ms;
+}
+
+.Section {
+    overflow: hidden !important;
+}
+
+.sidebar {
+    display: none !important;
+}
+
+.sideBarButton {
+    display: none !important;
+}
+
+.sidebar.menu{
+    background-color: #666!important;
+}
+
+.top.menu {
+    box-shadow: none;
+    background-color: #666!important;
+    
+}
+
+.top.menu .item {
+    display: block !important;
+    color: #fff;
+}
+
+.top.menu .item:hover,
+.top.menu .item:active {
+    color: #fbbd08!important;
+}
+
+.lowered {
+    margin-top: 50px;
+}
+
+.fullScreenHeight {
+    height: 100%;
+}
+
+.animatedBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #fff; */
+    /* opacity: 0.3; */
+}
+
+.animatedBackground i {
+    -webkit-font-smoothing: antialiased;
+    transition: 300ms all;
+    position: absolute;
+    opacity: 0.3;
+    color: #fff!important;
+    font-size: 10vw;
+    animation: 10s floatUp ease-in infinite;
+    top: 100%;
+}
+
+.animatedBackground i:nth-child(even):before {
+    animation: 30s slowRotate linear;
+    animation-direction: reverse;
+}
+
+.animatedBackground i:nth-child(odd):before {
+    animation: 40s slowRotate linear;
+}
+
+.fadeIn {
+    opacity: 0;
+}
+
+.section.active .fadeIn {
+    opacity: 1;
+}
+
+.section.active .animated {
+    transition-duration: 700ms;
+}
+
+.section.active .delayAnimation800 {
+    transition-delay: 800ms;
+}
+
+.section.active .delayAnimation1000 {
+    transition-delay: 1000ms;
+}
+
+.section.active .delayAnimation1200 {
+    transition-delay: 1200ms;
+}
+
+.section.active .delayAnimation1400 {
+    transition-delay: 1400ms;
+}
+
+.section.active .delayAnimation1600 {
+    transition-delay: 1600ms;
+}
+
+.section.active .delayAnimation1800 {
+    transition-delay: 1800ms;
+}
+
+.servicesPage a,
+.portfolioPage a{
+    font-weight: 600;
+    font-size: medium;
+    color: #eee !important;
+}
+
+.servicesPage a:hover,
+.servicesPage a:active,
+.portfolioPage a:hover,
+.portfolioPage a:active {
+    transition-delay: 0 !important;
+    transition: 250ms !important;
+    color: #666 !important;
+}
+
+.contactPage a .icon {
+    color: #eee !important;
+}
+
+.contactPage a .icon:hover,
+.contactPage a .icon:active {
+    color: #666 !important;
+}
+
+@keyframes floatUp {
+    0% {
+        top: 110%;
+        top: calc(100% + 2em);
+    }
+
+    100% {
+        top: -25%;
+        top: -2em;
+    }
+}
+
+@keyframes slowRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: 13px;
+    }
+
+    .sidebar {
+        display: block !important;
+    }
+
+    .sideBarButton {
+        display: block !important;
+        border: 2px solid #fff;
+    }
+
+    .ui.menu {
+        background-color: transparent;
+    }
+
+    .top.menu {
+        box-shadow: none;
+        border: 0px;
+        background-color: transparent!important;
+    }
+
+    .top.menu .item {
+        display: none !important;
+    }
+
+    #fp-nav {
+        display: none;
+    }
+}
