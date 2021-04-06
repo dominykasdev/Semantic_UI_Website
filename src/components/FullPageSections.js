@@ -198,38 +198,37 @@ const FullpageWrapper = (props, destinationSection) => (
                 <div className="row middle aligned"><h1>Dominykas.dev</h1></div>
                 <div className="row middle aligned"><p>Web Developer, lover of history, philosophy and politics.</p></div>
                 <div className="row middle aligned"><p>Interested in martial arts, camping and archery.</p></div>
-                <div className="row middle aligned"><p>Amatuer photographer.</p></div>
+                <div className="row middle aligned"><p>Amateur photographer.</p></div>
               </div>
             </div>
           </div>
           <div content={"Services"} className="section servicesPage">
             <div className="ui grid centered aligned column fullScreenHeight">
-              <div className="column middle aligned sixteen wide mobile twelve wide tablet eight wide computer">
+              <div className="column middle aligned fifteen wide mobile twelve wide tablet eight wide computer">
                 <div className="row middle aligned"><h2>Services</h2></div>
                 <div className="ui row aligned equal width grid stackable">
                   <div className="ui column aligned">
-                    <h3><i className="thumbs up outline icon" />Website and web app development</h3>
-                    <p>I'm experienced in working in all aspects of web development. I will keep you up to date with the progress during development. Whether its a simple one page site, a blog or an online shop I can lend my knowledge and skills, and help your vision come to life.<br/><a href="mailto:contact@dominykas.dev?subject=I'd like a website">Contact me now for a quote!</a></p>
+                    <h3><i className="thumbs up outline icon" />Website Development</h3>
+                    <p>Want a website? Whether it's a bespoke one page site, a blog or an online shop I can lend you my knowledge and skills to realise your ideas. You will be online in no time!</p>
                   </div>
                   <div className="ui column aligned">
-                    <h3><i className="hashtag icon" />Intergrate social media</h3>
-                    <p>Using social media is a great way to keep in contact with your customers/followers and gain new ones as well. I can help you set up you social media accounts such as Facebook, Twitter, Instagram etc., and increase your brand's outreach. I can also sync your pre-existing social media accounts to your website so your audience can keep up to date.</p>
+                    <h3><i className="wrench check icon" />Website Management</h3>
+                    <p>Already own a website? I can offer to update your website to the latest tech and check for bugs. I also offer suggestions to improve your SEO (Search Engine Optimisation), layout or anything else that may improve user experience.</p>
                   </div>
                   <div className="ui column aligned">
-                    <h3><i className="wrench check icon" />Website management</h3>
-                    <p>If you already own a website and it needs maintenance, I can help. I can do regular updates to your website if required. I can offer suggestions to improve your SEO, layout or anything else that may improve user experience for you or your audience/customers.</p>
+                    <h3><i className="hourglass icon" />Efficient Process</h3>
+                    <p>I aim to respond to requests as soon as possible! If you are looking for a quote do not hesitate to <a href="mailto:contact@dominykas.dev?subject=Dominykas.dev:Services Request">contact me</a>. After a short discussion about your requirements and timelines I can give you a quote within <b>48 hours</b>. You will be regularly updated throughout development and be involved in the project to give feedback.<br/><a href="mailto:contact@dominykas.dev?subject=Dominykas.dev:Services Request">Contact me now for a quote!</a></p>
                   </div>
                 </div>
               </div>
             </div>
-            {/* <div className="iconContainer">{skillList()}</div> */}
           </div>
           <div content={"About Me"} className="section">
             <div className="ui grid centered aligned column fullScreenHeight">
               <div className="column middle aligned fifteen wide mobile twelve wide tablet eight wide computer">
                 <h2 className="header">About Me</h2>
-                <p>Hi, I'm Dominykas, currently a web developer working at Covance.</p>
-                <p>I've been developing websites since 2016, learning everything from design, UI, cross-browser compatibility, responsive design, animation, APIs, CMS frameworks, data visualisation, SEO, JQuery, PHP, ES6, ReactJS, Redux, Node.js, and more.</p>
+                <p>Hi, I'm Dominykas, currently working as a web developer at Covance.</p>
+                <p>I've been developing websites since 2016, learning everything from designing UI, cross-browser compatibility, responsiveness, animation, APIs, CMS frameworks, data visualisation, SEO, JQuery, PHP, ES6, ReactJS, Redux, Node.js, and more.</p>
               </div>
               {/* <div className="iconContainer">{skillList()}</div> */}
             </div>
